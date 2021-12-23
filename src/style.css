@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #101010;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  border-radius: 5px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+  padding: 15px;
+  background-color: #202020;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+main img {
+  width: 50%;
+  padding: 15px;
+}
+
+main input[type="text"] {
+  width: 100%;
+  margin: 5px auto;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+}
+
+main input[type="password"] {
+  width: 100%;
+  margin: 5px 0 10px auto;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+}
+
+main .login {
+  width: 100%;
+  border: none;
+  background-color: #dd2626;
+  color: #FFF;
+  cursor: pointer;
+  margin: 0px auto;
+  padding: 10px 0px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+main .register {
+  width: 100%;
+  border: none;
+  background-color: #FFF;
+  color: #202020;
+  cursor: pointer;
+  margin: 10px auto;
+  padding: 10px 0px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+main p {
+  margin-top: 5px;
+  color: #909090;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-align: center;
+}
+
+main a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 10pt;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
