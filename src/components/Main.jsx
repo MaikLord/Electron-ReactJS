@@ -9,7 +9,7 @@ const Main = () => {
             <div className='content'>
                 <main>
                     <img src={logo} />
-                    <form action="">
+                    <form action="POST">
                         <input type="text" placeholder='Login' />
                         <input type="password" placeholder='Password' />
                         <input className='login' type="button" value="Connect" />
