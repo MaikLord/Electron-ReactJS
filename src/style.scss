@@ -12,16 +12,17 @@
      background-color: #101010;
  }
 .content {
-    display: grid;
-    height: 100vh;
+    display: flex;
     grid-template-columns: 1fr;
     border-radius: 5px;
     justify-items: center;
     align-items: center;
 }
 main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    width: 100%;
     margin: 15px;
     padding: 15px;
     background-color: #202020;
@@ -29,9 +30,15 @@ main {
     align-items: center;
     border-radius: 5px;
     
+    div{
+        background-color: #161748;
+    }
+    header {
+        background-color: #dd2626;
+    }
 
     img {
-        width: 50%;
+        width: 30%;
         padding: 15px;
     }
     input[type="text"] {
@@ -93,3 +100,6 @@ main {
        text-align: center;
    }
 }
+    .btnConnect {
+        primary: "#ea618142"
+    }
